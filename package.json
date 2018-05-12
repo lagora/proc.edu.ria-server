@@ -1,0 +1,23 @@
+{
+  "name": "proc.edu.ria-server",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "apollo-server-express": "^1.3.6",
+    "babel-polyfill": "^6.26.0",
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3",
+    "graphql": "^0.13.2",
+    "proceduria-core": "lagora/proc.edu.ria-core"
+  },
+  "maing": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "forever index.js"
+  },
+  "devDependencies": {
+    "forever": "^0.15.3",
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2"
+  }
+}
